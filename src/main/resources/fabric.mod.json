@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "hudeditor",
+  "version": "${version}",
+  "name": "HUD Editor",
+  "description": "Drag vanilla HUD groups, set transparency, and see saturation on the hunger bar.",
+  "environment": "client",
+  "entrypoints": { "modmenu": ["com.hudeditor.ModMenuIntegration"] },
+  "suggests": { "modmenu": ">=17.0.0" },
+  "mixins": ["hudeditor.client.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}

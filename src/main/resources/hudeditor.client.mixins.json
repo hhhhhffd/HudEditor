@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.hudeditor.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "GuiMixin", "ExperienceBarMixin", "OptionsMixin", "MinecraftMixin",
+    "HudItemStateMixin", "HudItemAtlasMixin", "HudItemPipMixin", "HudItemDecorationMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}
